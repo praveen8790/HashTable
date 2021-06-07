@@ -1,12 +1,10 @@
 Node.java
  Node
-Tester.java
- Tester
-MyLinkedList.java
- MyLinkedList
+MyHashTable.java
+ MyHashTable
 MyMapNode.java
  MyMapNode
 INode.java
  INode
-MyHashTable.java
- MyHashTable
+MyLinkedList.java
+ MyLinkedList
