@@ -2,11 +2,11 @@ Node.java
  Node
 Tester.java
  Tester
-MyHashTable.java
- MyHashTable
+MyLinkedList.java
+ MyLinkedList
 MyMapNode.java
  MyMapNode
 INode.java
  INode
-MyLinkedList.java
- MyLinkedList
+MyHashTable.java
+ MyHashTable
