@@ -38,8 +38,8 @@ public class MyLinkedList<T extends Comparable<T>> {
 
         }
     }
-    public void delete(INode data){
-        INode delete = search((T) data.getKey());
+    public void delete(T data){
+        INode delete = search(data);
         if(delete == head)
             deleteElementAtHead();
         else if(delete == tail)

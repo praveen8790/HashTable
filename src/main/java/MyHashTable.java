@@ -1,5 +1,5 @@
+
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class MyHashTable<T extends Comparable<T>,V> {
 
@@ -42,6 +42,13 @@ public class MyHashTable<T extends Comparable<T>,V> {
                 mapNode.setValue(value);
         }
         this.arrayList.set(index,list);
+
+    }
+    public void delete(T key){
+        int index =getHash(key);
+        MyLinkedList list = this.arrayList.get(index);
+        if(list != null)
+            list.delete(key);
     }
 
 
