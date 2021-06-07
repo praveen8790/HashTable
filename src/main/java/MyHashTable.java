@@ -43,7 +43,12 @@ public class MyHashTable<T extends Comparable<T>,V> {
         }
         this.arrayList.set(index,list);
     }
-
+    public void delete(T key){
+        int index =getHash(key);
+        MyLinkedList list = this.arrayList.get(index);
+        if(list != null)
+            list.delete(key);
+    }
 
     public static void main(String[] args) {
         MyHashTable<String,Integer> hashTable = new MyHashTable();
